@@ -228,6 +228,13 @@ h6 {
 #logo:hover {
   text-decoration: none;
 }
+
+#logo-sub {
+  font-family: "Comfortaa", sans-serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #333;
+}
 h1 a,
 h2 a,
 h3 a,
