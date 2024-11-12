@@ -3293,3 +3293,10 @@ body.homepage.is-preload #header:after {
     margin-bottom: 2em;
   }
 }
+
+.simplified-explanation {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-left: 4px solid #007bff;
+  margin: 20px 0;
+}
