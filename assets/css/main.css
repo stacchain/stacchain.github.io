@@ -241,6 +241,7 @@ h6 {
   text-decoration: none;
   color: #333;
 }
+
 h1 a,
 h2 a,
 h3 a,
@@ -3305,4 +3306,16 @@ body.homepage.is-preload #header:after {
   padding: 15px;
   border-left: 4px solid #007bff;
   margin: 20px 0;
+}
+
+#tagline {
+  font-size: clamp(1rem, 1vw, 5rem);
+  color: #555;
+  text-align: center;
+  margin-top: 1em; /* Add spacing from the header */
+  line-height: 1.5;
+}
+
+#tagline strong {
+  color: #000000; /* Example color for 'stac' */
 }
