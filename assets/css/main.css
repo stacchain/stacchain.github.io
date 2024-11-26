@@ -3319,3 +3319,15 @@ body.homepage.is-preload #header:after {
 #tagline strong {
   color: #000000; /* Example color for 'stac' */
 }
+
+#banner h2 {
+  font-size: clamp(4rem, 5vw, 12rem);
+  color: #555;
+  text-align: center;
+  margin-top: 5em; /* Add spacing from the header */
+  line-height: 1.5;
+}
+
+#banner strong {
+  color: #000000; /* Example color for 'stac' */
+}
