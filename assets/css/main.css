@@ -215,10 +215,16 @@ h6 {
 }
 
 #logo {
+  font-size: clamp(
+    2rem,
+    10vw,
+    20rem
+  ); /* Min: 2rem, Preferred: 5vw, Max: 8rem */
   font-family: "Comfortaa", sans-serif;
-  font-size: 10rem;
-  text-decoration: none;
   color: #333;
+  text-decoration: none;
+  line-height: 0.2;
+  transition: font-size 0.3s ease-in-out; /* Smooth transition */
 }
 
 #logo strong {
