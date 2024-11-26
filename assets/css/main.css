@@ -3321,10 +3321,10 @@ body.homepage.is-preload #header:after {
 }
 
 #banner h2 {
-  font-size: clamp(4rem, 5vw, 12rem);
+  font-size: clamp(2rem, 10vw, 12rem);
   color: #555;
   text-align: center;
-  margin-top: 5em; /* Add spacing from the header */
+  margin-top: 0.5em; /* Add spacing from the header */
   line-height: 1.5;
 }
 
