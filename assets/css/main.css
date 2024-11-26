@@ -216,8 +216,8 @@ h6 {
 
 #logo {
   font-size: clamp(
-    2rem,
-    10vw,
+    1rem,
+    17vw,
     20rem
   ); /* Min: 2rem, Preferred: 5vw, Max: 8rem */
   font-family: "Comfortaa", sans-serif;
