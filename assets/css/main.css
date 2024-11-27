@@ -345,7 +345,7 @@ hr {
   border: 0;
   top: 4.5em;
   margin-bottom: 9em;
-  height: 6px;
+  height: 10px;
   border-top: solid 1px rgba(128, 128, 128, 0.2);
   border-bottom: solid 1px rgba(128, 128, 128, 0.2);
 }
@@ -2074,6 +2074,40 @@ ul.icons li a:hover {
   color: #ef8376;
 }
 
+/* Top Icons */
+
+ul.top-icons {
+  position: relative;
+  background: rgba(128, 128, 128, 0.05);
+  border-radius: 4em;
+  display: inline-block;
+  padding: 0.35em 0.75em 0.35em 0.75em;
+  font-size: 1.25em;
+  cursor: default;
+  list-style: none;
+}
+
+ul.top-icons li {
+  display: inline-block;
+  padding-left: 0;
+}
+
+ul.top-icons li a {
+  display: inline-block;
+  background: none;
+  width: 2.5em;
+  height: 2.5em;
+  line-height: 2.5em;
+  text-align: center;
+  border-radius: 100%;
+  border: 0;
+  color: inherit;
+}
+
+ul.top-icons li a:hover {
+  color: #ef8376;
+}
+
 /* Form */
 
 form label {
@@ -3309,11 +3343,11 @@ body.homepage.is-preload #header:after {
 }
 
 #tagline {
-  font-size: clamp(1rem, 1vw, 5rem);
+  font-size: clamp(1rem, 2.5vw, 5rem);
   color: #555;
   text-align: center;
-  margin-top: 1em; /* Add spacing from the header */
-  line-height: 3.5;
+  margin-top: 0em; /* Add spacing from the header */
+  line-height: 0.5;
 }
 
 #tagline strong {
