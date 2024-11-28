@@ -217,13 +217,13 @@ h6 {
 #logo {
   font-size: clamp(
     1rem,
-    17vw,
-    20rem
+    12vw,
+    15rem
   ); /* Min: 2rem, Preferred: 5vw, Max: 8rem */
   font-family: "Comfortaa", sans-serif;
   color: #333;
   text-decoration: none;
-  line-height: 0.2;
+  line-height: 0;
   transition: font-size 0.3s ease-in-out; /* Smooth transition */
 }
 
@@ -2079,10 +2079,10 @@ ul.icons li a:hover {
 ul.top-icons {
   position: relative;
   background: rgba(128, 128, 128, 0.05);
-  border-radius: 4em;
+  border-radius: 3em;
   display: inline-block;
-  padding: 0.35em 0.75em;
-  font-size: 1.25em;
+  /* padding: 0.35em 0.75em; */
+  font-size: 1em;
   cursor: default;
   list-style: none;
   gap: 1rem; /* Add spacing between icons */
@@ -2103,7 +2103,7 @@ ul.top-icons li a {
   border-radius: 100%; /* Circular icons */
   border: 0;
   color: inherit;
-  font-size: clamp(1rem, 3vw, 4.5rem); /* Responsive icon size */
+  font-size: clamp(1rem, 2vw, 3rem); /* Responsive icon size */
   transition: font-size 0.3s ease-in-out; /* Smooth resizing */
 }
 
@@ -2337,7 +2337,7 @@ button.alt:hover,
 }
 
 header .icon.circled {
-  margin: 0 0 2em 0;
+  margin: 0 0 1em 0;
 }
 
 /* Wrapper */
@@ -2362,7 +2362,7 @@ header .icon.circled {
   background-attachment: fixed;
   color: #fff;
   text-align: center;
-  padding: 7.5em 0 2em 0;
+  padding: 5em 0 2em 0;
   cursor: default;
 }
 
@@ -2403,11 +2403,11 @@ header .icon.circled {
 #header .button {
   display: inline-block;
   border-radius: 100%;
-  width: clamp(3em, 10vw, 4.5em); /* Dynamic width */
-  height: clamp(3em, 10vw, 4.5em); /* Dynamic height */
-  line-height: clamp(3em, 10vw, 4.5em); /* Vertical alignment */
+  width: clamp(3em, 10vw, 4em); /* Dynamic width */
+  height: clamp(3em, 10vw, 4em); /* Dynamic height */
+  line-height: clamp(3em, 10vw, 4em); /* Vertical alignment */
   text-align: center;
-  font-size: clamp(1rem, 2vw, 1.25rem); /* Responsive font size */
+  font-size: clamp(1rem, 1vw, 1.5rem); /* Responsive font size */
   padding: 0; /* Padding adjusted */
   background: #df7366; /* Button color */
   color: white;
@@ -3353,11 +3353,11 @@ body.homepage.is-preload #header:after {
 }
 
 #tagline {
-  font-size: clamp(1rem, 2.5vw, 5rem);
+  font-size: clamp(1rem, 2vw, 3rem);
   color: #555;
   text-align: center;
   margin-top: 0em; /* Add spacing from the header */
-  line-height: 1.2;
+  line-height: 0.5;
 }
 
 #tagline strong {
